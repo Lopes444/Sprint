@@ -6,6 +6,7 @@ import Signup from "../pages/Signup/Index";
 import useAuth from "../hooks/useAuth";
 
 
+
 const Private = ({ Item }) => {
   const { signed } = useAuth();
 
